@@ -1,0 +1,23 @@
+{
+  "name": "eslint-plugin-auto-js-extension",
+  "version": "0.1.1",
+  "main": "./index.js",
+  "scripts": {
+    "test": "node tests/auto-js-extension.test.js"
+  },
+  "description": "eslint custom rule for auto js extension",
+  "devDependencies": {
+    "@eslint/eslintrc": "3.1.0",
+    "eslint": "9.13.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.0.0"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "l2hyunn",
+  "license": "ISC"
+}
